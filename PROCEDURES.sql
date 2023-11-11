@@ -212,7 +212,7 @@ END crudClienteFisico;
 CREATE OR REPLACE PROCEDURE crudClienteJurica (
     p_cod_pessoa_ju IN NUMBER,
     p_cnpj IN NUMBER,
-    p_ie IN VARCHAR2,
+    p_ie IN NUMBER,
     p_cliente_cod_cliente IN NUMBER,
     p_metodo IN VARCHAR2
 ) AS
@@ -236,6 +236,8 @@ BEGIN
 END crudClienteJurica;
 /
 
+
+/* PROCEDURE PARA ITEM_PEDIDO */
 CREATE OR REPLACE PROCEDURE crudItemPedido (
     p_quantidade          IN NUMBER,
     p_valor_unitario      IN NUMBER,
@@ -280,7 +282,7 @@ BEGIN
 END crudItemPedido;
 /
 
-
+/* PROCEDURE PARA FUNCIONARIO */
 CREATE OR REPLACE PROCEDURE crudFuncionario (
     p_cod_funcionario             IN NUMBER,
     p_nome                        IN VARCHAR2,
@@ -324,6 +326,7 @@ BEGIN
 END crudFuncionario;
 /
 
+/* PROCEDURE PARA CARGO */
 CREATE OR REPLACE PROCEDURE crudCargo (
     p_cod_cargo IN NUMBER,
     p_nome      IN VARCHAR2,
@@ -347,6 +350,7 @@ BEGIN
 END crudCargo;
 /
 
+/* PROCEDURE PARA PEDIDO */
 CREATE OR REPLACE PROCEDURE crudPedido (
     p_cod_pedido                         IN NUMBER,
     p_data                               IN DATE,
@@ -400,6 +404,7 @@ BEGIN
 END crudPedido;
 /
 
+/* PROCEDURE PARA PRODUTO */
 CREATE OR REPLACE PROCEDURE crudProduto (
     p_cod_produto   IN NUMBER,
     p_descricao     IN VARCHAR2,
@@ -433,6 +438,7 @@ BEGIN
 END crudProduto;
 /
 
+/* PROCEDURE PARA TIPO */
 CREATE OR REPLACE PROCEDURE crudTipo (
     p_cod_tipo  IN NUMBER,
     p_descricao IN VARCHAR2,
@@ -461,3 +467,4 @@ BEGIN
     COMMIT;
 END crudTipo;
 /
+

@@ -1,3 +1,122 @@
+-- Inserindo Países
+EXEC crudPais(1, 'Brasil', 'insert');
+EXEC crudPais(2, 'Estados Unidos', 'insert');
+EXEC crudPais(3, 'França', 'insert');
+EXEC crudPais(4, 'Alemanha', 'insert');
+EXEC crudPais(5, 'Japão', 'insert');
+EXEC crudPais(6, 'Canadá', 'insert');
+EXEC crudPais(7, 'Austrália', 'insert');
+EXEC crudPais(8, 'Itália', 'insert');
+EXEC crudPais(9, 'Espanha', 'insert');
+EXEC crudPais(10, 'China', 'insert');
+
+-- Inserindo Estados
+EXEC crudEstado(1, 'São Paulo', 1, 'insert');
+EXEC crudEstado(2, 'California', 2, 'insert');
+EXEC crudEstado(3, 'Île-de-France', 3, 'insert');
+EXEC crudEstado(4, 'Baviera', 4, 'insert');
+EXEC crudEstado(5, 'Tóquio', 5, 'insert');
+EXEC crudEstado(6, 'Ontário', 6, 'insert');
+EXEC crudEstado(7, 'Queensland', 7, 'insert');
+EXEC crudEstado(8, 'Lácio', 8, 'insert');
+EXEC crudEstado(9, 'Madri', 9, 'insert');
+EXEC crudEstado(10, 'Pequim', 10, 'insert');
+
+-- Inserindo Cidades
+EXEC crudCidade(1, 'São Paulo', 1, 'insert');
+EXEC crudCidade(2, 'Los Angeles', 2, 'insert');
+EXEC crudCidade(3, 'Paris', 3, 'insert');
+EXEC crudCidade(4, 'Munique', 4, 'insert');
+EXEC crudCidade(5, 'Tóquio', 5, 'insert');
+EXEC crudCidade(6, 'Toronto', 6, 'insert');
+EXEC crudCidade(7, 'Brisbane', 7, 'insert');
+EXEC crudCidade(8, 'Roma', 8, 'insert');
+EXEC crudCidade(9, 'Madri', 9, 'insert');
+EXEC crudCidade(10, 'Pequim', 10, 'insert');
+
+-- Inserindo Bairros
+EXEC crudBairro(1, 'Jardins', 1, 'insert');
+EXEC crudBairro(2, 'Hollywood', 2, 'insert');
+EXEC crudBairro(3, 'Montmartre', 3, 'insert');
+EXEC crudBairro(4, 'Schwabing', 4, 'insert');
+EXEC crudBairro(5, 'Shinjuku', 5, 'insert');
+EXEC crudBairro(6, 'Yorkville', 6, 'insert');
+EXEC crudBairro(7, 'South Bank', 7, 'insert');
+EXEC crudBairro(8, 'Trastevere', 8, 'insert');
+EXEC crudBairro(9, 'Chamberí', 9, 'insert');
+EXEC crudBairro(10, 'Chaoyang', 10, 'insert');
+
+-- Inserindo Endereços de Clientes
+EXEC crudEnderecoCliente(1, 123, 05775260, 'Próximo ao Parque', 1, 'insert');
+EXEC crudEnderecoCliente(2, 456, 67890, 'Perto da Praia', 2, 'insert');
+EXEC crudEnderecoCliente(3, 789, 54321, 'Centro da Cidade', 3, 'insert');
+EXEC crudEnderecoCliente(4, 101, 98765, 'Vista Panorâmica', 4, 'insert');
+EXEC crudEnderecoCliente(5, 202, 13579, 'Ao Lado da Estação', 5, 'insert');
+EXEC crudEnderecoCliente(6, 303, 24680, 'No Coração da Cidade', 6, 'insert');
+EXEC crudEnderecoCliente(7, 404, 86420, 'Próximo ao Rio', 7, 'insert');
+EXEC crudEnderecoCliente(8, 505, 97531, 'Rua Histórica', 8, 'insert');
+EXEC crudEnderecoCliente(9, 606, 75319, 'Zona Residencial', 9, 'insert');
+EXEC crudEnderecoCliente(10, 707, 15937, 'Próximo ao Shopping', 10, 'insert');
+
+-- Inserindo Clientes
+EXEC crudCliente(1, 'Cliente PF 1', 1, 'insert');
+EXEC crudCliente(2, 'Cliente PF 2', 2, 'insert');
+EXEC crudCliente(3, 'Cliente PF 3', 3, 'insert');
+EXEC crudCliente(4, 'Cliente PF 4', 4, 'insert');
+EXEC crudCliente(5, 'Cliente PF 5', 5, 'insert');
+EXEC crudCliente(6, 'Cliente PF 6', 6, 'insert');
+EXEC crudCliente(7, 'Cliente PF 7', 7, 'insert');
+EXEC crudCliente(8, 'Cliente PF 8', 8, 'insert');
+EXEC crudCliente(9, 'Cliente PF 9', 9, 'insert');
+EXEC crudCliente(10, 'Cliente PF 10', 10, 'insert');
+-- Inserindo Clientes adicionais
+EXEC crudCliente(11, 'Cliente PJ 11', 1, 'insert');
+EXEC crudCliente(12, 'Cliente PJ 12', 2, 'insert');
+EXEC crudCliente(13, 'Cliente PJ 13', 3, 'insert');
+EXEC crudCliente(14, 'Cliente PJ 14', 4, 'insert');
+EXEC crudCliente(15, 'Cliente PJ 15', 5, 'insert');
+EXEC crudCliente(16, 'Cliente PJ 16', 6, 'insert');
+EXEC crudCliente(17, 'Cliente PJ 17', 7, 'insert');
+EXEC crudCliente(18, 'Cliente PJ 18', 8, 'insert');
+EXEC crudCliente(19, 'Cliente PJ 19', 9, 'insert');
+EXEC crudCliente(20, 'Cliente PJ 20', 10, 'insert');
+
+-- Inserindo Gêneros
+EXEC crudGenero(1, 'Masculino', 'insert');
+EXEC crudGenero(2, 'Feminino', 'insert');
+EXEC crudGenero(3, 'Homem Cisgenero', 'insert');
+EXEC crudGenero(4, 'Homem Transgenero', 'insert');
+EXEC crudGenero(5, 'Mulher Cisgenero', 'insert');
+EXEC crudGenero(6, 'Mulher Transgenero', 'insert');
+EXEC crudGenero(7, 'Agenero', 'insert');
+EXEC crudGenero(8, 'LGBT', 'insert');
+EXEC crudGenero(9, 'Transexual', 'insert');
+EXEC crudGenero(10, 'Genero nao Binario', 'insert');
+
+-- Inserindo Clientes Físicos
+EXEC crudClienteFisico(1, 12345678901, 1, 1, 'insert');
+EXEC crudClienteFisico(2, 23456789012, 2, 2, 'insert');
+EXEC crudClienteFisico(3, 34567890123, 3, 3, 'insert');
+EXEC crudClienteFisico(4, 45678901234, 4, 4, 'insert');
+EXEC crudClienteFisico(5, 56789012345, 5, 5, 'insert');
+EXEC crudClienteFisico(6, 67890123456, 6, 6, 'insert');
+EXEC crudClienteFisico(7, 78901234567, 7, 7, 'insert');
+EXEC crudClienteFisico(8, 89012345678, 8, 8, 'insert');
+EXEC crudClienteFisico(9, 90123456789, 9, 9, 'insert');
+EXEC crudClienteFisico(10, 12345678901, 10, 10, 'insert');
+
+-- Inserindo Clientes Jurídicos
+EXEC crudClienteJurica(1, '12345678901234', '489464', 11, 'insert');
+EXEC crudClienteJurica(2, '23456789012345', '123456', 12, 'insert');
+EXEC crudClienteJurica(3, '34567890123456', '987654', 13, 'insert');
+EXEC crudClienteJurica(4, '45678901234567', '654321', 14, 'insert');
+EXEC crudClienteJurica(5, '56789012345678', '321654', 15, 'insert');
+EXEC crudClienteJurica(6, '67890123456789', '456789', 16, 'insert');
+EXEC crudClienteJurica(7, '78901234567890', '987654', 17, 'insert');
+EXEC crudClienteJurica(8, '89012345678901', '654321', 18, 'insert');
+EXEC crudClienteJurica(9, '90123456789012', '321654', 19, 'insert');
+EXEC crudClienteJurica(10, '12345678901234', '456789', 20, 'insert');
+
 -- Inserindo Tipos de Produto
 EXEC crudTipo(1, 'Eletrônicos', 'insert');
 EXEC crudTipo(2, 'Roupas', 'insert');

@@ -179,15 +179,15 @@ EXEC crudPedido(9, TO_DATE('2023-09-01', 'YYYY-MM-DD'), 9, 9, 9, 9, 9, 9, 'inser
 EXEC crudPedido(10, TO_DATE('2023-04-10', 'YYYY-MM-DD'), 10, 10, 10, 10, 10, 10, 'insert');
 
 -- Inserindo Itens de Pedidos
-EXEC crudItemPedido(5, 10.50, 52.50, 1, 1, 'insert');
-EXEC crudItemPedido(3, 15.25, 45.75, 2, 2, 'insert');
-EXEC crudItemPedido(4, 20.75, 83.00, 3, 3, 'insert');
-EXEC crudItemPedido(2, 25.00, 50.00, 4, 4, 'insert');
-EXEC crudItemPedido(6, 18.50, 111.00, 5, 5, 'insert');
-EXEC crudItemPedido(7, 22.00, 154.00, 6, 6, 'insert');
-EXEC crudItemPedido(3, 30.00, 90.00, 7, 7, 'insert');
-EXEC crudItemPedido(5, 12.00, 60.00, 8, 8, 'insert');
-EXEC crudItemPedido(4, 18.75, 75.00, 9, 9, 'insert');
-EXEC crudItemPedido(2, 15.50, 31.00, 10, 10, 'insert');
+EXEC crudItemPedido(5, 10, 50, 1, 1, 'insert');
+EXEC crudItemPedido(3, 15, 45, 2, 2, 'insert');
+EXEC crudItemPedido(4, 20, 80, 3, 3, 'insert');
+EXEC crudItemPedido(2, 25, 50, 4, 4, 'insert');
+EXEC crudItemPedido(6, 18, 108, 5, 5, 'insert');
+EXEC crudItemPedido(7, 22, 154, 6, 6, 'insert');
+EXEC crudItemPedido(3, 30, 90, 7, 7, 'insert');
+EXEC crudItemPedido(5, 12, 60, 8, 8, 'insert');
+EXEC crudItemPedido(4, 18, 72, 9, 9, 'insert');
+EXEC crudItemPedido(2, 15, 30, 10, 10, 'insert');
 
 COMMIT;

@@ -47,16 +47,16 @@ EXEC crudBairro(9, 'Chamberí', 9, 'insert');
 EXEC crudBairro(10, 'Chaoyang', 10, 'insert');
 
 -- Inserindo Endereços de Clientes
-EXEC crudEnderecoCliente(1, 123, 05775260, 'Próximo ao Parque', 1, 'insert');
-EXEC crudEnderecoCliente(2, 456, 67890, 'Perto da Praia', 2, 'insert');
-EXEC crudEnderecoCliente(3, 789, 54321, 'Centro da Cidade', 3, 'insert');
-EXEC crudEnderecoCliente(4, 101, 98765, 'Vista Panorâmica', 4, 'insert');
-EXEC crudEnderecoCliente(5, 202, 13579, 'Ao Lado da Estação', 5, 'insert');
-EXEC crudEnderecoCliente(6, 303, 24680, 'No Coração da Cidade', 6, 'insert');
-EXEC crudEnderecoCliente(7, 404, 86420, 'Próximo ao Rio', 7, 'insert');
-EXEC crudEnderecoCliente(8, 505, 97531, 'Rua Histórica', 8, 'insert');
-EXEC crudEnderecoCliente(9, 606, 75319, 'Zona Residencial', 9, 'insert');
-EXEC crudEnderecoCliente(10, 707, 15937, 'Próximo ao Shopping', 10, 'insert');
+EXEC crudEnderecoCliente(1, 123, 12345678, 'Próximo ao Parque', 1, 'insert');
+EXEC crudEnderecoCliente(2, 456, 98765432, 'Perto da Praia', 2, 'insert');
+EXEC crudEnderecoCliente(3, 789, 54321876, 'Centro da Cidade', 3, 'insert');
+EXEC crudEnderecoCliente(4, 101, 87654321, 'Vista Panorâmica', 4, 'insert');
+EXEC crudEnderecoCliente(5, 202, 23456789, 'Ao Lado da Estação', 5, 'insert');
+EXEC crudEnderecoCliente(6, 303, 67890123, 'No Coração da Cidade', 6, 'insert');
+EXEC crudEnderecoCliente(7, 404, 34567890, 'Próximo ao Rio', 7, 'insert');
+EXEC crudEnderecoCliente(8, 505, 89012345, 'Rua Histórica', 8, 'insert');
+EXEC crudEnderecoCliente(9, 606, 45678901, 'Zona Residencial', 9, 'insert');
+EXEC crudEnderecoCliente(10, 707, 21098765, 'Próximo ao Shopping', 10, 'insert');
 
 -- Inserindo Clientes
 EXEC crudCliente(1, 'Cliente PF 1', 1, 'insert');
